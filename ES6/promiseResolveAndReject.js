@@ -13,10 +13,10 @@ const makeServerRequest = new Promise((resolve, reject) => {
   }
 });
 
-makeServerRequest
-  .then(data => {
-    console.log("Promise resolved with data: " + data);
-  })
-  .catch(error => {
-    console.log("Promise rejected with error: " + error);
-  });
+// makeServerRequest
+//   .then(data => {
+//     console.log("Promise resolved with data: " + data);
+//   })
+//   .catch(error => {
+//     console.log("Promise rejected with error: " + error);
+//   });
